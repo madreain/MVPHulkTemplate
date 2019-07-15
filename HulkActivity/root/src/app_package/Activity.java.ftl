@@ -16,6 +16,9 @@ import butterknife.BindView;
  */
 public class ${activityClass}Activity extends BaseActivity<${activityClass}Presenter> implements ${activityClass}Contract.View{
 
+    @BindView(R.id.${layoutName})
+    RelativeLayout prelativeLayout;
+
     @Override
     public int getLayoutId() {
         return R.layout.${layoutName};
@@ -30,6 +33,6 @@ public class ${activityClass}Activity extends BaseActivity<${activityClass}Prese
 
     @Override
     public View getReplaceView() {
-        return null;
+        return prelativeLayout;
     }
 }
