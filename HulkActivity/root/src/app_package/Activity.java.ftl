@@ -2,6 +2,7 @@ package ${moduleName};
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 import com.madreain.hulk.ui.BaseActivity;
 import ${packageName}.R;
