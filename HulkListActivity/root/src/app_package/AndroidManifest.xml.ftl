@@ -2,7 +2,7 @@
     >
 
     <application>
-        <activity android:name="${relativePackage}.${activityClass}Activity"
+        <activity android:name="${relativePackage}.module.${activityClass}.${activityClass}Activity"
             <#if generateActivityTitle!true>
                 <#if isNewProject>
                     android:label="@string/app_name"
