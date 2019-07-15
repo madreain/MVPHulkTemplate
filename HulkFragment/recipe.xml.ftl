@@ -17,8 +17,7 @@
     <instantiate from="root/src/app_package/Presenter.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/module/${fragmentClass}/${fragmentClass}Presenter.java" />
     <instantiate from="root/src/app_package/JavaBean.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/module/${activityClass}/${javaBeanName}.java" />
-
+                   to="${escapeXmlAttribute(srcOut)}/module/${fragmentClass}/${javaBeanName}.java" />
 
     <open file="${escapeXmlAttribute(resOut)}/layout/item_${layoutName}.xml" />
     <open file="${escapeXmlAttribute(srcOut)}/module/${fragmentClass}/${fragmentClass}Module.java" />
