@@ -2,6 +2,7 @@ package ${moduleName};
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 import com.madreain.hulk.ui.BaseFragment;
 import ${packageName}.R;
@@ -15,6 +16,9 @@ import butterknife.BindView;
  * description：
  */
 public class ${fragmentClass}Fragment extends BaseFragment<${fragmentClass}Presenter> implements ${fragmentClass}Contract.View{
+
+    @BindView(R.id.${layoutName})
+    RelativeLayout prelativeLayout;
 
     @Override
     public int getLayoutId() {
@@ -30,6 +34,6 @@ public class ${fragmentClass}Fragment extends BaseFragment<${fragmentClass}Prese
 
     @Override
     public View getReplaceView() {
-        return null;
+        return prelativeLayout;
     }
 }
