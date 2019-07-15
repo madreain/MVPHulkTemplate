@@ -16,6 +16,8 @@
                    to="${escapeXmlAttribute(srcOut)}/module/${activityClass}/${activityClass}Module.java" />
     <instantiate from="root/src/app_package/Presenter.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/module/${activityClass}/${activityClass}Presenter.java" />
+    <instantiate from="root/src/app_package/JavaBean.java.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/module/${activityClass}/${javaBeanName}.java" />
     <merge from="root/src/app_package/AndroidManifest.xml.ftl"
                    to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" />
 
