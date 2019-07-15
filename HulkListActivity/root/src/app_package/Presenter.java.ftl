@@ -23,7 +23,6 @@ public class ${activityClass}Presenter extends BasePresenter<${activityClass}Mod
 
     @Override
     public void onStart() {
-        view.showLoading();
         loadPageListData(1);
     }
 

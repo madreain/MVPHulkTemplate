@@ -23,7 +23,6 @@ public class ${fragmentClass}Presenter extends BasePresenter<${fragmentClass}Mod
 
     @Override
     public void onStart() {
-        view.showLoading();
         loadPageListData(1);
     }
 
