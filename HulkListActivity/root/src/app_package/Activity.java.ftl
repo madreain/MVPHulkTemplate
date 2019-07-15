@@ -27,8 +27,6 @@ public class ${activityClass}Activity extends BaseListActivity<${activityClass}P
     @BindView(R.id.recyclerView)
     RecyclerView recyclerView;
 
-    private ${activityClass}Adapter adapter;
-
     @Override
     public int getLayoutId() {
         return R.layout.${layoutName};
@@ -41,29 +39,29 @@ public class ${activityClass}Activity extends BaseListActivity<${activityClass}P
     }
 
     @Override
- public void loadPageListData(int pageNo) {
-     loadPageListData(loadPageNum);
- }
+     public void loadPageListData(int pageNo) {
+         presenter.loadPageListData(pageNo);
+     }
 
- @Override
- public SmartRefreshLayout getSmartRefreshLayout() {
-     return smartRefreshLayout;
- }
+     @Override
+     public SmartRefreshLayout getSmartRefreshLayout() {
+         return smartRefreshLayout;
+     }
 
 
- @Override
- public RecyclerView getRecyclerView() {
-     return recyclerView;
- }
+     @Override
+     public RecyclerView getRecyclerView() {
+         return recyclerView;
+     }
 
- @Override
- public RecyclerView.LayoutManager getLayoutManager() {
-     return new LinearLayoutManager(this);
- }
+     @Override
+     public RecyclerView.LayoutManager getLayoutManager() {
+         return new LinearLayoutManager(this);
+     }
 
- @Override
- public View getReplaceView() {
-     return smartRefreshLayout;
- }
+     @Override
+     public View getReplaceView() {
+         return smartRefreshLayout;
+     }
 
 }
