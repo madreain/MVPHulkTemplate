@@ -56,7 +56,7 @@ public class ${fragmentClass}Fragment extends BaseListFragment<${fragmentClass}P
 
      @Override
      public RecyclerView.LayoutManager getLayoutManager() {
-         return new LinearLayoutManager(this);
+         return new LinearLayoutManager(getContext());
      }
 
      @Override
