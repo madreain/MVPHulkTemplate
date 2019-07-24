@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c03a92e-6fcc-4894-a8dd-2ffd4aff24fe" name="Default Changelist" comment="更新">
+    <list default="true" id="8c03a92e-6fcc-4894-a8dd-2ffd4aff24fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Activity.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Activity.java.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Activity.java.ftl">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="214">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="312">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -40,14 +40,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl" />
-        <option value="$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/HulkListActivity/root/src/app_package/AndroidManifest.xml.ftl" />
         <option value="$PROJECT_DIR$/HulkActivity/root/src/app_package/AndroidManifest.xml.ftl" />
         <option value="$PROJECT_DIR$/HulkActivity/recipe.xml.ftl" />
         <option value="$PROJECT_DIR$/HulkActivity/template.xml" />
-        <option value="$PROJECT_DIR$/HulkActivity/root/src/app_package/Activity.java.ftl" />
         <option value="$PROJECT_DIR$/HulkFragment/root/src/app_package/Fragment.java.ftl" />
         <option value="$PROJECT_DIR$/HulkFragment/template.xml" />
         <option value="$PROJECT_DIR$/HulkFragment/recipe.xml.ftl" />
@@ -56,6 +53,10 @@
         <option value="$PROJECT_DIR$/HulkListFragment/root/src/app_package/Fragment.java.ftl" />
         <option value="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl" />
         <option value="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Activity.java.ftl" />
+        <option value="$PROJECT_DIR$/HulkActivity/root/src/app_package/Layout.xml.ftl" />
+        <option value="$PROJECT_DIR$/HulkActivity/root/src/app_package/Activity.java.ftl" />
+        <option value="$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl" />
+        <option value="$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl" />
       </list>
     </option>
   </component>
@@ -81,25 +82,25 @@
             <path>
               <item name="MVPHulkTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVPHulkTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="HulkListActivity" type="462c0819:PsiDirectoryNode" />
+              <item name="HulkListFragment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVPHulkTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVPHulkTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="HulkListActivity" type="462c0819:PsiDirectoryNode" />
+              <item name="HulkListFragment" type="462c0819:PsiDirectoryNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVPHulkTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVPHulkTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="HulkListActivity" type="462c0819:PsiDirectoryNode" />
+              <item name="HulkListFragment" type="462c0819:PsiDirectoryNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVPHulkTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVPHulkTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="HulkListActivity" type="462c0819:PsiDirectoryNode" />
+              <item name="HulkListFragment" type="462c0819:PsiDirectoryNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app_package" type="462c0819:PsiDirectoryNode" />
@@ -242,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563163174772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更新">
+      <created>1563931810997</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563931810997</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更新">
+      <created>1563932744828</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563932744828</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -250,7 +265,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2354515" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2354515" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -260,7 +275,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.24946004" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.24946004" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
@@ -314,22 +329,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HulkActivity/root/src/app_package/Presenter.java.ftl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HulkActivity/root/src/app_package/AndroidManifest.xml.ftl">
       <provider selected="true" editor-type-id="text-editor">
@@ -450,31 +451,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HulkActivity/root/src/app_package/Activity.java.ftl">
+    <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HulkActivity/root/src/app_package/Layout.xml.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Layout.xml.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Activity.java.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="461">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HulkActivity/root/src/app_package/Activity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HulkListActivity/root/src/app_package/Presenter.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HulkListFragment/root/src/app_package/Presenter.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>

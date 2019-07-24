@@ -23,7 +23,7 @@ public class ${activityClass}Presenter extends BasePresenter<${activityClass}Mod
 
     @Override
     public void onStart() {
-        loadPageListData(1);
+        //loadPageListData(1);
     }
 
     @Override
