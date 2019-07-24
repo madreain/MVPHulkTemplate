@@ -2,7 +2,7 @@ package ${moduleName};
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 
 import com.madreain.hulk.ui.BaseActivity;
 import ${packageName}.R;
@@ -17,8 +17,10 @@ import butterknife.BindView;
  */
 public class ${activityClass}Activity extends BaseActivity<${activityClass}Presenter> implements ${activityClass}Contract.View{
 
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
     @BindView(R.id.${layoutName})
-    RelativeLayout prelativeLayout;
+    LinearLayout prelativeLayout;
 
     @Override
     public int getLayoutId() {
@@ -28,6 +30,8 @@ public class ${activityClass}Activity extends BaseActivity<${activityClass}Prese
 
     @Override
     public void init(Bundle savedInstanceState) {
+        setSupportActionBarWithBack(toolbar);
+        toolbar.setTitle("标题");
         //初始化
         presenter.onStart();
     }
