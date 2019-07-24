@@ -22,6 +22,8 @@ import butterknife.BindView;
  */
 public class ${activityClass}Activity extends BaseListActivity<${activityClass}Presenter,${activityClass}Adapter<${activityClass}Activity>,${javaBeanName}> implements ${activityClass}Contract.View{
 
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
     @BindView(R.id.smartRefreshLayout)
     SmartRefreshLayout smartRefreshLayout;
     @BindView(R.id.recyclerView)
@@ -35,6 +37,8 @@ public class ${activityClass}Activity extends BaseListActivity<${activityClass}P
 
     @Override
     public void _init(Bundle savedInstanceState) {
+        setSupportActionBarWithBack(toolbar);
+        toolbar.setTitle("标题");
         presenter.onStart();
     }
 
