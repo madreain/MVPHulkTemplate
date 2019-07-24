@@ -44,7 +44,7 @@ public class ${activityClass}Activity extends BaseListActivity<${activityClass}P
 
     @Override
      public void loadPageListData(int pageNo) {
-         presenter.loadPageListData(pageNo);
+         //presenter.loadPageListData(pageNo);
      }
 
      @Override

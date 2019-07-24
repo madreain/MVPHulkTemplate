@@ -40,7 +40,7 @@ public class ${fragmentClass}Fragment extends BaseListFragment<${fragmentClass}P
 
     @Override
      public void loadPageListData(int pageNo) {
-         presenter.loadPageListData(pageNo);
+         //presenter.loadPageListData(pageNo);
      }
 
      @Override

@@ -3,6 +3,7 @@ package ${moduleName};
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.support.v7.widget.Toolbar;
 
 import com.madreain.hulk.ui.BaseActivity;
 import ${packageName}.R;
