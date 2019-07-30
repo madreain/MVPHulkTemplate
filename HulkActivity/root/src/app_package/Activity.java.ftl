@@ -5,8 +5,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.support.v7.widget.Toolbar;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.madreain.hulk.ui.BaseActivity;
 import ${packageName}.R;
+import ${packageName}.consts.ARouterUri;
 
 import butterknife.BindView;
 
@@ -16,6 +18,7 @@ import butterknife.BindView;
  * module：
  * description：
  */
+@Route(path = ARouterUri.${activityClass}Activity)
 public class ${activityClass}Activity extends BaseActivity<${activityClass}Presenter> implements ${activityClass}Contract.View{
 
     @BindView(R.id.toolbar)

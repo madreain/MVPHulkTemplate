@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.madreain.hulk.ui.BaseDialogFragment;
 import ${packageName}.R;
+import ${packageName}.consts.ARouterUri;
 
 import butterknife.BindView;
 
@@ -15,6 +17,7 @@ import butterknife.BindView;
  * module：
  * description：
  */
+@Route(path = ARouterUri.${fragmentClass}DialogFragment)
 public class ${fragmentClass}DialogFragment extends BaseDialogFragment<${fragmentClass}Presenter> implements ${fragmentClass}Contract.View{
 
     @BindView(R.id.${layoutName})

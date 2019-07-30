@@ -6,11 +6,13 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.LinearLayoutManager;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.madreain.hulk.ui.BaseListFragment;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 
 import ${packageName}.R;
+import ${packageName}.consts.ARouterUri;
 
 import butterknife.BindView;
 
@@ -20,6 +22,7 @@ import butterknife.BindView;
  * module：
  * description：
  */
+@Route(path = ARouterUri.${fragmentClass}Fragment)
 public class ${fragmentClass}Fragment extends BaseListFragment<${fragmentClass}Presenter,${fragmentClass}Adapter<${fragmentClass}Fragment>,${javaBeanName}> implements ${fragmentClass}Contract.View{
 
     @BindView(R.id.smartRefreshLayout)

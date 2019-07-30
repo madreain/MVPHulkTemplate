@@ -6,11 +6,13 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.LinearLayoutManager;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.madreain.hulk.ui.BaseListActivity;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 
 import ${packageName}.R;
+import ${packageName}.consts.ARouterUri;
 
 import butterknife.BindView;
 
@@ -20,6 +22,7 @@ import butterknife.BindView;
  * module：
  * description：
  */
+@Route(path = ARouterUri.${activityClass}Activity)
 public class ${activityClass}Activity extends BaseListActivity<${activityClass}Presenter,${activityClass}Adapter<${activityClass}Activity>,${javaBeanName}> implements ${activityClass}Contract.View{
 
     @BindView(R.id.toolbar)
