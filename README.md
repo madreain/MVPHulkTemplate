@@ -14,7 +14,7 @@ Mac : /Applications/Android Studio.app/Contents/plugins/android/lib/templates/gr
 
 ### 使用
 
-![MVPHulkTemplate](file/MVPHulkTemplate.png)
+![MVPHulkTemplate](file/MVPHulkTemplate.jpg)
 
-选择包名->new->HulkBaseLib->选择对应的去生成
+选择包名->new->HulkTemplate->选择对应的去生成
 ⚠️注意：这里必须是包名哦，我这个模版插件是会根据类名，生成在包名/module/类名下的相关代码

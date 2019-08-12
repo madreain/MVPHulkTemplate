@@ -7,7 +7,7 @@
     minBuildApi="14"
     description="一键创建MVPHulk的ListActivity">
 
-    <category value="HulkBaseLib" />
+    <category value="HulkTemplate" />
     <formfactor value="Mobile" />
 
     <!-- 主activity名字 -->

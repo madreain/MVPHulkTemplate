@@ -7,7 +7,7 @@
     minBuildApi="14"
     description="一键创建MVPHulk单Fragment">
 
-    <category value="HulkBaseLib" />
+    <category value="HulkTemplate" />
     <formfactor value="Mobile" />
 
     <parameter
