@@ -2,7 +2,7 @@ package ${moduleName};
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.support.v7.widget.Toolbar;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
@@ -24,7 +24,7 @@ public class ${activityClass}Activity extends BaseActivity<${activityClass}Prese
     @BindView(R.id.toolbar)
     Toolbar toolbar;
     @BindView(R.id.${layoutName})
-    LinearLayout prelativeLayout;
+    RelativeLayout prelativeLayout;
 
     @Override
     public int getLayoutId() {
